@@ -1,11 +1,11 @@
 all: dir.o
-	gcc -o a.out dir.o
+	gcc -o program dir.o
 
 main.o: dir.c
 	gcc -c dir.c
 
 run:
-	./a.out
+	./program
 
 clean:
 	rm *.o
